@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercies4</title>
+    <style>
+    /* تنسيقات النموذج */
+    form {
+      text-align: center;
+    }
+
+    fieldset {
+      width: 400px;
+      background-color: #ffffcc; /* لون أصفر فاتح */
+      margin: 10px auto;
+      text-align: left;
+      border: 1px solid #999;
+    }
+
+    legend {
+      font-weight: bold;
+    }
+
+    label {
+      display: inline-block;
+      width: 120px;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+      width: 200px;
+    }
+
+    input[type="submit"] {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+    <form action="">
+    <fieldset>
+      <legend>Personal details</legend>
+      <label>First name:</label>
+      <input type="text" name="firstName"><br>
+
+      <label>Last name:</label>
+      <input type="text" name="lastName"><br>
+
+      <label>Email address:</label>
+      <input type="email" name="email"><br>
+
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female
+    </fieldset>
+
+    <fieldset>
+      <legend>Magazines</legend>
+      <label><input type="checkbox" name="magazine" value="Stavanger"> Stavanger Aftenblad</label><br>
+      <label><input type="checkbox" name="magazine" value="Teknisk"> Teknisk Ukeblad</label><br>
+      <label><input type="checkbox" name="magazine" value="Se og Hør"> Se og Hør</label><br>
+      <label><input type="checkbox" name="magazine" value="Familien"> Familien</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Subscription</legend>
+      <label>Period</label>
+      <select name="period">
+        <option value="6">6 months</option>
+        <option value="12">12 months</option>
+        <option value="18">18 months</option>
+        <option value="24">24 months</option>
+      </select>
+    </fieldset>
+
+    <input type="submit" value="Subscribe">
+  </form>
+</body>
+</html>
