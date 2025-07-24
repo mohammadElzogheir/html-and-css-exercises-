@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef4ff;
+}
+
+.box {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+
+.even {
+  background-color: #0033cc;
+  color: black;
+}
+
+.odd {
+  background-color: #ff3333;
+  color: black;
+}
+
+
+.small {
+  font-size: 0.7em;
+}
+
+.large {
+  font-size: 1.3em;
+}
+
+
+#lucky7 {
+  color: white;
+}
